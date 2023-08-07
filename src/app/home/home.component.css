@@ -1,0 +1,14 @@
+h1 {
+    color: #2d88ff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+  }
+  body{
+    background-color: aquamarine;
+  }
