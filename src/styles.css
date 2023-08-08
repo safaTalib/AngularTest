@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+.nvgbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    }
+    
+    .nvgbar li {
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    
+    .nvgbar li:hover {
+    background-color: #2d88ff;
+    }
+    
+    .nvgbar li:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    }
+    
+    .nvgbar li:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    }
+    

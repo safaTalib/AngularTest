@@ -22,3 +22,29 @@
 h1{
   text-align: center;
 }
+
+h1 {
+  color: #2d88ff;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
+
+header {
+  position: relative;
+  background-color: #343a40;
+  background: url(/src/app/assets/OIP.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.card-title
+{
+color:black ;
+}

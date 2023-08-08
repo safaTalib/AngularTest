@@ -9,6 +9,17 @@ h1 {
     display: block;
     margin: 20px auto;
   }
-  body{
-    background-color: aquamarine;
-  }
+  
+
+  header {
+    position: relative;
+    background-color: #343a40;
+    background: url(/src/app/assets/OIP.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.card-title
+{
+  color:black ;
+}

@@ -1,28 +1,40 @@
-<h1> The Result</h1>
-<div class="container">  
-  <br>
 
-  <table class="table table-striped table-bordered">  
-    <thead>  
-      <tr>  
-        <th scope="col">NAME</th>  
-        <th scope="col">EMAIL</th>  
-        <th scope="col">MARKS (out of 100)</th>  
+<nav class="navbar navbar-light bg-info static-top">
+  <div class="container">
+      <a class="navbar-brand" href="#!" style="color: white;">Student Page</a>
+      <ul class="nvgbar">
+        <li>Home</li>
+        <li>About</li>
+        <li>Information</li>
+      </ul>
+      <a class="btn btn-primary" href="#signup">Sign Up</a>
+  </div>
+</nav>
+<h1 class="text-center mt-5">The Result</h1>
+<div class="container mt-4">
+
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">NAME</th>
+        <th scope="col">EMAIL</th>
+        <th scope="col">MARKS (out of 100)</th>
         <th scope="col">PASS/FAIL</th>
-      </tr>  
-    </thead>  
-    <tbody>  
-      <tr *ngFor="let student of studentList">  
-        <td>{{ student.Name }}</td>  
-        <td>{{ student.Email }}</td>  
-        <td [ngClass]="getMarkColor(student.Mark)">{{ student.Mark }}</td>  
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of studentList">
+        <td>{{ student.Name }}</td>
+        <td>{{ student.Email }}</td>
+        <td [ngClass]="getMarkColor(student.Mark)">{{ student.Mark }}</td>
         <td>
           <span *ngIf="student.Mark > 50" class="badge badge-success">PASS</span>
           <span *ngIf="student.Mark <= 50" class="badge badge-danger">FAIL</span>
         </td>
-      </tr>  
-    </tbody>  
-  </table>  
+      </tr>
+    </tbody>
+  </table>
+
 </div>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
